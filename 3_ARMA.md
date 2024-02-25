@@ -389,7 +389,7 @@ sum of two time series, one deterministic and one stochastic
 
 Suppose we want to simulate a sample path from AR(2) with phi1=0.8 and
 phi2=0.6, but we are not sure if this series is stationary. Then check
-with the Characteristic Polynomial by filling in the code below:
+with the characteristic polynomial by filling in the code below:
 
 ``` r
 polyroot(c(1, -0.8, -0.6)) 
@@ -401,6 +401,8 @@ polyroot(c(1, -0.8, -0.6))
 # entering opposite-signed coefficients that corresponds to the char. polynomial of the AR(2) above
 # e.g. Y_t = 0.8*Y_t-1 + 0.6*Y_t-2 + e_t >> polyroot(c(1, -0.8, -0.6))
 
+# recall that AR(p) is stationary if the characteristic func. Φ(x)=0 has ALL roots abs(x) > 1 
+# this process is non-stationary since one of the roots<1 for the characteristic func. of the process 
 # let's see if we can generate a sample path of the AR(2) above regardless of stationarity
 # will have error in arima.sim(model = list(ar = c(0.8, 0.6), sd = 1), n = 100) since 'ar' part of model is not stationary 
 ```
