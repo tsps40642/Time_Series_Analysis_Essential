@@ -272,6 +272,15 @@ adf.test(df2c$Y)
     ## Dickey-Fuller = -24.294, Lag order = 27, p-value = 0.01
     ## alternative hypothesis: stationary
 
+### ADF test and trend
+
+Note that fitting a linear model won’t change anything in autocorr.
+since it only capture the deterministic trend (more details in TREND) So
+if after fitting a lm the residual still shows autocorr., p-value \>=
+0.05, it is highly possible that the time series contains a random walk
+component. Understand whether there’s a trend or just random walk is of
+the most importance
+
 # AIC, BIC
 
 ### Attributes of AIC and BIC
