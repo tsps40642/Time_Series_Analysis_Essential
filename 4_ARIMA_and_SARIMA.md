@@ -221,7 +221,7 @@ if d=2 then Y_t = t<sup>2</sup> + e_t, after differencing twice:
 \[2(t-1)-1+e_t-1-e_t-2\] = 2+(e_t-e_t-1)-(e_t-1-e_t-2), no linear trend
 \>\> end up having a stationary process after the 2nd differencing
 
-##### Example: why differencing a time series with deterministic trend would reduce prediction accuracy?
+##### Example: why differencing a time series with deterministic (i.e. already known) trend would reduce prediction accuracy?
 
 let Y_t = t + e_t has a deterministic trend, then we know at t+2: Y_t+2
 = (t+2) + e_t+2  
