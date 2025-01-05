@@ -511,7 +511,7 @@ DEF. ARIMA(p, d, q)(P, D, Q)\[S\] where S is the cycle length
 3.  after 2. if trend can’t be removed, then need other transformation  
 4.  Practice rule of thumb of transformation: make sure the
     transformation is reversible
-    1)  be careful of transformations that are NOT 1-1 func.  
+    1)  be careful when transforming through func. that are NOT 1-1   
     2)  taking subset like deleting, averaging which are irreversible,
         will lose information  
     3)  repeated use of data may increase bias
