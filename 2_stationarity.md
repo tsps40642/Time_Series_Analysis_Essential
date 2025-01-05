@@ -53,8 +53,7 @@ Given e_t ~ N(0, σ<sup>2</sup>) is i.i.d. r.v.
 2)  no seasonality  
 3)  no autocorr.  
 4)  variance = const.  
-5)  It’s the fundamental building block in modeling more complex
-    stochastic processes
+5)  
 
 ### Statistics
 
@@ -62,12 +61,14 @@ Given e_t ~ N(0, σ<sup>2</sup>) is i.i.d. r.v.
 2)  Cov(Y_t, Y_t-1) = 0  
 3)  Var(Y_t) = σ<sup>2</sup> = const.
 
-### In real business world, it’s a part of the variation beyond human control
-
-1)  systematic or measurement error  
-2)  New info. that the model can’t capture (an interpretation almost
-    exclusive to time series)  
-3)  Experiments controlled by a higher dimension  
+### Importance of white noise 
+1)  It’s the fundamental building block in modeling more complex
+    stochastic processes  
+2)  In real business world, it’s a part of the variation beyond human control like:  
+    a)  systematic or measurement error  
+    b)  New info. that the model can’t capture (an interpretation almost
+        exclusive to time series)  
+    c)  Experiments controlled by a higher dimension  
 
 ``` r
 e = rnorm(100) # generate white noise time series 
