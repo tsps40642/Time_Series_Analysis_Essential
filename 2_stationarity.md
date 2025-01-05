@@ -174,7 +174,7 @@ cor(Y[2:99], Y[3:100]) # calculate the first-order autocorrelation
 
     ## [1] 0.3312874
 
-## Random walk is NOT stationary
+## Random walk is NOT stationary ( since non-conscant variance)  
 
 ### DEF. Y_t = Σ(i=1 to t)e_i, i.e. Y_t = Y_t-1 + e_t
 
