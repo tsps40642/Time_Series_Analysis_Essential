@@ -53,7 +53,6 @@ Given e_t ~ N(0, σ<sup>2</sup>) is i.i.d. r.v.
 2)  no seasonality  
 3)  no autocorr.  
 4)  variance = const.  
-5)  
 
 ### Statistics
 
