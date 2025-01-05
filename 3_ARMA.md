@@ -370,7 +370,7 @@ DEF. Y_t = φ1*Y_t-1 + φ2*Y_t-2 + … + φp*Y_t-p + e_t + θ1*e_t-1 +
 1.  Note that since MA(q) is always stationary, ARMA(p, q) is stationary
     if AR(p) part is stationary  
 2.  We can use ACF to identify orders of MA(q), but can’t for AR(p) and
-    ARNA(p, q)  
+    ARMA(p, q)  
 3.  Based on Wold’s theorem, ARMA(p, q) is the best linear approximation
     to any arbitrary stationary process, and t’s the Taylor’s expansion
     of time series  
