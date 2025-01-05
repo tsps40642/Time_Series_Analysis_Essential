@@ -393,7 +393,7 @@ lines(consump_fit_manual$fitted, col="blue")
 # we can repeat this process multiple times, if we have more than 1 candidate models
 ```
 
-# SRIMA
+# SARIMA
 
 ## Seasonality
 
