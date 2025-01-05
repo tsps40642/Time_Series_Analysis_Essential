@@ -521,6 +521,7 @@ DEF. ARIMA(p, d, q)(P, D, Q)\[S\] where S is the cycle length
 DEF. BoxCos transformation of Y_t into Z_t with a λ is:  
 Z_t = log(Y_t), if λ = 0  
 = (Y_t(<sup>λ</sup>)-1) / λ, o.w.  
+BoxCox transformation is mainly used when we want to transform data not in distributed in normality into normal distribution s.t. more statistical models / analysis techniques can be applied  
 λ is a tuning parameter to determine how concave/convex we want to
 transformed data to be
 
